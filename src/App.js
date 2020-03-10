@@ -8,6 +8,8 @@ import EditExercise from "./components/edit-exercise.component";
 import CreateExercise from "./components/create-exercise.component";
 import CreateUser from "./components/create-user.component";
 
+alert("The production build isn't connected to the database due to security issues! I'm currently working on resolving those!");
+
 function App() {
 	return (
 		<Router>
