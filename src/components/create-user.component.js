@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-const API_URL = 'https://focused-swirles-a774d9.netlify.com';
+const API_URL = 'http://localhost:5000';
 
 export default class CreateUser extends Component {
 	constructor(props) {

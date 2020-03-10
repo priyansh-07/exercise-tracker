@@ -3,7 +3,7 @@ import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
-const API_URL = 'https://focused-swirles-a774d9.netlify.com';
+const API_URL = 'http://localhost:5000';
 
 export default class EditExercise extends Component {
 	constructor(props) {
